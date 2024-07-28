@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-semibold text-5xl py-2;
+  }
+
+  h2 {
+    @apply font-semibold text-4xl py-2;
+  }
+
+  h3 {
+    @apply font-semibold text-3xl;
+  }
+
+  h4 {
+    @apply font-semibold text-2xl;
+  }
+  a {
+    @apply cursor-pointer hover:cursor-pointer;
+  }
+
+  .markdown a {
+    @apply bg-GRAY_HEAVY dark:bg-white py-[2px] px-1.5 rounded-md text-xs text-white dark:text-BLACK hover:bg-BLACK dark:hover:bg-GRAY_HEAVY;
+  }
+
+  .markdown h1,
+  .markdown h2 {
+    @apply pt-4 pb-2;
+  }
+
+  .markdown h3,
+  .markdown h4 {
+    @apply pt-4 pb-2;
+  }
+
+  strong {
+    @apply font-semibold;
+  }
+
+  em {
+    @apply text-GRAY_HEAVY;
+  }
+
+  code {
+    @apply bg-GRAY_LIGHT dark:bg-GRAY_EXTRAHEAVY  py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY dark:text-PRIMARY;
+  }
+
+  blockquote {
+    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-md w-full dark:bg-GRAY_EXTRAHEAVY;
+  }
+
+  ul,
+  ol {
+    @apply flex flex-col gap-2 py-2 ml-4 list-outside list-disc;
+  }
+  
+  li ul {
+    @apply pt-2;
+  }
+}
+
+@font-face {
+  font-family: 'WAGURITTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes blinkOnce {
+  0%{
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.text-7xl span {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: calc(0.3s * var(--index));
+  position: relative;
+}
+
+
+
+.text-7xl span::after {
+  content: '|'; /* 커서 모양 */
+  position: absolute;
+  top: 1px;
+  right: -17px; /* 글자 오른쪽에 위치 */
+  opacity: 0; /* 초기 상태는 투명 */
+  animation: blinkOnce 1s step-end forwards; /* 한 번 깜빡이는 애니메이션 */
+  animation-delay: calc(0.3s * var(--index)); /* 글자와 동일한 지연 시간 */
+}
+
+.text-7xl span:last-child::after {
+  animation: blink 1s step-end infinite; /* 마지막 글자에서 계속 깜빡이는 애니메이션 */
+  opacity: 1; /* 커서 보이기 */
+  animation-delay: calc(0.3s * var(--index)); /* 마지막 글자 애니메이션 지연 시간 */
+}
+
+.text-7xl span.space::after {
+  content: ''; /* 공백일 때 커서를 숨김 */
+}
