@@ -124,8 +124,8 @@
       "id": 3,
       "name": "portfolio",
       "description": "해당 프로젝트에서는 포트폴리오 프레임을 받고 타인의 포트폴리오 디자인을 참고하였습니다. 거기에 Next.js의 강력한 기능을 활용하여 서버 사이드 렌더링과 정적 사이트 생성을 통해 빠르고 효율적인 웹 페이지를 구현했습니다. 또한, Vercel을 통해 손쉽게 배포하여 실시간으로 웹사이트를 업데이트할 수 있는 환경을 마련했습니다. Tailwind CSS를 사용하여 클래스 이름으로 스타일을 설정함으로써, 직관적이고 응답성이 뛰어난 디자인을 구현했습니다. 이 포트폴리오에서는 저의 프로젝트와 기술 스택을 소개하고, 앞으로의 성장 가능성을 보여주고자 합니다.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "webUrl": "https://portfolio-heebeoms-projects.vercel.app/",
+      "repoUrl": "https://github.com/heebeom89/portfolio",
       "isTeam": true,
       "period": ["2022. 10", "2022. 11"],
       "stack": ["JavaScript", "HTML/CSS", "Next.js", "Typescript","Tailwind CSS", "Vercel", "GitHub"]
