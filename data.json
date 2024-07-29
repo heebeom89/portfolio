@@ -6,7 +6,7 @@
   "information": {
     "name": "양희범",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
+      { "id": 0, "name": "Email", "href": "kaka4481@gmail.com", "isEmail": true },
       { "id": 1, "name": "Github", "href": "https://github.com/heebeom89" }
       
     ]
@@ -95,7 +95,7 @@
       "name": "lms",
       "description": "학생들과 교수진에게 최적의 학습 환경을 제공하기 위해 설계된 전남대학교 대학원격지원센터 LMS 홈페이지입니다. \n이 프로젝트에서는 사용자 친화적인 인터페이스와 강력한 기능을 갖춘 학습 관리 시스템을 구현하였으며, 이후 지속적인 유지보수와 추가 개발을 담당하여 시스템의 안정성과 성능을 향상시켰습니다.",
       "webUrl": "https://www.gjudec.com/",
-      "repoUrl": "https://github.com/heebeom89/had-done-code",
+      "repoUrl": "",
       "isTeam": true,
       "period": ["2022. 07", "2022. 09"],
       "stack": ["HTML/CSS", "JavaScript", "React.js", "Scss", "Node.js","express.js", "MongoDB", "Mongoose", "Nginx", "WebSocket","PM2","GitHub"]
@@ -105,7 +105,7 @@
       "name": "lms",
       "description": "Gesture 홈페이지는 제가 담당 개발자 중 한 명으로 참여한 LMS(학습 관리 시스템)로, 사용자에게 맞춤형 학습 공간을 제공하는 것이 특징입니다. 마치 노션에서 개인 공간을 구성하듯, Gesture에서는 '러닝스페이스'라는 개인 교육 공간을 통해 학습자들이 자신만의 학습 환경을 조성할 수 있도록 설계하였습니다. 이 시스템은 영상 강의, 시험, 퀴즈, 토론 등 다양한 학습 도구와 기능을 통합하여, 효율적이고 몰입감 있는 학습 경험을 제공합니다.",
       "webUrl": "https://www.gesture.day",
-      "repoUrl": "https://github.com/heebeom89/had-done-code",
+      "repoUrl": "",
       "isTeam": true,
       "period": ["2022. 10", "2022. 11"],
       "stack": ["HTML/CSS", "JavaScript", "React.js", "Scss", "Node.js","fastify", "MongoDB", "Mongoose", "Nginx", "WebSocket","PM2","GitHub"]
@@ -115,7 +115,7 @@
       "name": "출퇴근",
       "description": "해당 홈페이지는 Passport Local과 Google 전략을 사용하여 출퇴근 시 로그인을 하고, 얼굴 인식과 위치 및 시간을 체크하여 출퇴근 기록을 남길 수 있으며, 회사 비품이나 경비를 관리하는 기능도 제공합니다. 저는 로그인 후 얼굴인식 및 출퇴근 과정을 담당하였습니다.",
       "webUrl": "https://hr.grend.ai/",
-      "repoUrl": "https://github.com/heebeom89/had-done-code",
+      "repoUrl": "",
       "isTeam": true,
       "period": ["2022. 10", "2022. 11"],
       "stack": ["JavaScript", "HTML/CSS", "React.js", "Typescript","Scss", "Node.js", "express.js", "MongoDB", "Python", "Passport","GitHub"]
